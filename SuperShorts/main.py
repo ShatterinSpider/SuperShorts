@@ -36,7 +36,7 @@ time.sleep(5)
 bot.quit()
 
 print("\033[1;31;40m IMPORTANT: Please make sure the name of the videos are like this: vid1.mp4, vid2.mp4, vid3.mp4 ...  etc")
-dir_path = '.\\videos\\Backtrack_Video.mp4'
+dir_path = 'videos\\Backtrack_Video.mp4'
 count = 0
 
 for path in os.listdir(dir_path):
